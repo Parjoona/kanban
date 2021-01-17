@@ -9,9 +9,8 @@ export default function Board() {
       name: 'todo',
       items: [
         {
-          stuff: 'blabla',
-          name: 'task',
-          amountCompleted: '5/6',
+          title: 'task',
+          tasks: '5/6',
         },
       ],
     },

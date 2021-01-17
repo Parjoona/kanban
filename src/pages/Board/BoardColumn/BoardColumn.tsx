@@ -8,7 +8,7 @@ export default function BoardColumn({ name, children }: BoardColumn) {
   return (
     <div className="rounded bg-gray-200 w-64 p-2">
       <div className="flex justify-between py-1">
-        <h3 className="text-sm">{name}</h3>
+        <h3 className="text-sm ml-1">{name}</h3>
         <svg
           className="h-4 fill-current text-grey-dark cursor-pointer"
           xmlns="http://www.w3.org/2000/svg"
