@@ -906,6 +906,14 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
+"@snowpack/plugin-build-script@^2.1.0":
+  version "2.1.0"
+  resolved "https://registry.yarnpkg.com/@snowpack/plugin-build-script/-/plugin-build-script-2.1.0.tgz#d2733ad09c6ce31f88cff9f7a6fd7cfdf6559db1"
+  integrity sha512-rNuNxI5fM4QieNSOlwhZVD+0iA0nhEAS8MgXStCeH3mr0lC8dVLSYRTt83bS4Q6pxF9zFFfY5z+CTq/JVz8aUw==
+  dependencies:
+    execa "^5.0.0"
+    npm-run-path "^4.0.1"
+
 "@snowpack/plugin-dotenv@^2.0.5":
   version "2.0.5"
   resolved "https://registry.yarnpkg.com/@snowpack/plugin-dotenv/-/plugin-dotenv-2.0.5.tgz#e8bcc5cb59c951f7d560e36397960dd2252a56ee"

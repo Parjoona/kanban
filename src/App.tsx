@@ -1,9 +1,14 @@
 import React from 'react';
 import Routes from './routes/Routes';
-import 'tailwindcss/tailwind.css';
+import './index.css';
 
 function App() {
-  return <Routes />;
+  return (
+    <>
+      <nav className="bg-gray-800" />
+      <Routes />
+    </>
+  );
 }
 
 export default App;
