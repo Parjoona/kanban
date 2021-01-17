@@ -3,9 +3,9 @@ import React from 'react';
 export default function Card() {
   return (
     <div className="bg-white p-2 rounded mt-1 border-b border-grey cursor-pointer hover:bg-grey-lighter">
-      Check the responsive layout on all devices
+      <p className="px-1">Check the responsive layout on all devices</p>
       <div className="text-grey-darker mt-2 ml-2 flex justify-between items-start">
-        <span className="text-xs flex items-center">
+        <span className="text-xs my-2 flex items-center">
           <svg
             className="h-4 fill-current mr-1"
             xmlns="http://www.w3.org/2000/svg"
@@ -15,7 +15,6 @@ export default function Card() {
           </svg>
           3/5
         </span>
-        <img src="https://i.imgur.com/OZaT7jl.png" className="rounded-full" />
       </div>
     </div>
   );
