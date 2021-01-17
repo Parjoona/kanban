@@ -1,12 +1,8 @@
-import React, { ReactNode } from 'react';
+import React, { PropsWithChildren } from 'react';
 import LogoutButton from './LogoutButton';
 import NavigationButtons from './NavigationButtons';
 
-interface INavigation {
-  children: ReactNode;
-}
-
-export default function Navigation({ children }: INavigation) {
+export default function Navigation({ children }: PropsWithChildren<unknown>) {
   return (
     <main className="flex w-full h-screen">
       <aside className="w-80 h-screen bg-gray shadow-md w-fulll hidden sm:block">
