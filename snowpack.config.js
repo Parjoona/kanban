@@ -6,6 +6,7 @@ module.exports = {
   },
   plugins: [
     '@snowpack/plugin-webpack',
+    '@snowpack/plugin-postcss',
     '@snowpack/plugin-react-refresh',
     '@snowpack/plugin-dotenv',
     '@snowpack/plugin-typescript',
