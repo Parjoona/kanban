@@ -1,8 +1,10 @@
 {
-  "name": "kanban",
-  "version": "1.0.0",
-  "main": "index.js",
-  "repository": "https://github.com/Parjoona/kanban.git",
-  "author": "Par Joona <parjoona@hotmail.com>",
-  "license": "MIT"
+  "scripts": {
+    "start": "snowpack dev",
+    "build": "snowpack build",
+    "test": "echo \"This template does not include a test runner by default.\" && exit 1"
+  },
+  "devDependencies": {
+    "snowpack": "^3.0.1"
+  }
 }
