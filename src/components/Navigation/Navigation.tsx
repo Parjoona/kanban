@@ -8,7 +8,6 @@ export default function Navigation({ children }: PropsWithChildren<unknown>) {
       <aside className="w-80 h-screen bg-gray shadow-md w-fulll hidden sm:block">
         <div className="flex flex-col justify-between h-screen p-4 bg-gray-800">
           <NavigationButtons />
-
           <LogoutButton />
         </div>
       </aside>

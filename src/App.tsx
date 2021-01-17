@@ -10,9 +10,7 @@ function App() {
     <Router>
       <div className="bg-gray-500">
         <Navigation>
-          <div className="container mx-auto">
-            <Routes />
-          </div>
+          <Routes />
         </Navigation>
       </div>
     </Router>

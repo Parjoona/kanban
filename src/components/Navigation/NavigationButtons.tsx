@@ -15,7 +15,11 @@ export default function NavigationButtons() {
   return (
     <div className="text-sm">
       {links.map(({ link, name }) => (
-        <NavLink to={link} activeClassName="bg-gray-700 text-blue-300">
+        <NavLink
+          to={link}
+          activeClassName="bg-gray-700 text-blue-300"
+          key={name}
+        >
           <div
             className={clsx(
               'p-2 rounded mt-2 cursor-pointer hover:bg-gray-700 hover:text-blue-300',
