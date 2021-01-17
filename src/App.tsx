@@ -8,11 +8,13 @@ import './index.css';
 function App() {
   return (
     <Router>
-      <Navigation>
-        <div className="container mx-auto">
-          <Routes />
-        </div>
-      </Navigation>
+      <div className="bg-gray-500">
+        <Navigation>
+          <div className="container mx-auto">
+            <Routes />
+          </div>
+        </Navigation>
+      </div>
     </Router>
   );
 }
