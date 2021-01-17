@@ -9,9 +9,7 @@ export default function Navigation({ children }: PropsWithChildren<unknown>) {
         <div className="flex flex-col justify-between h-screen p-4 bg-gray-800">
           <NavigationButtons />
 
-          <div className="flex p-3 text-white bg-red-500 rounded cursor-pointer text-center text-sm">
-            <LogoutButton />
-          </div>
+          <LogoutButton />
         </div>
       </aside>
 
